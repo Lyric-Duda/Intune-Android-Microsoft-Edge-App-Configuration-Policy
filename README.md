@@ -19,7 +19,7 @@ This JSON file is structured to
 * Set the default search engine to google
 * Disable unneeded Microsoft Edge features
 
-## Adding the JSON to Intune
+## Adding the Microsoft Edge App Configuration
 
 To create the Microsoft Edge App Configuration Policy
 1. Navagate to Apps - Android - Configuration
