@@ -19,6 +19,20 @@ This JSON file is structured to
 * Set the default search engine to google
 * Disable unneeded Microsoft Edge features
 
+
+
+
+# Demo Images
+
+## Microsoft Edge Intune App Configuration Policy Settings
+
+![Microsoft Edge Intune Settings](https://ldgithubstorageaccount.blob.core.windows.net/githubimages/Microsoft%20Edge%20App%20Configuration%20Policy%20Information/Microsoft%20Edge%20App%20Configuration%20Full%20Size.png)
+
+* In addition. This policy "Auto Grants" Location permissions for Microsoft Edge
+
+
+# Intune Configuration Information
+
 ## Adding the Microsoft Edge App Configuration Policy
 
 To create the Microsoft Edge App Configuration Policy
@@ -44,14 +58,6 @@ To create the Microsoft Edge App Configuration Policy
         1. Add desiered Users, Devices, or Groups
     * Review + create
         * Review then click create
-
-# Demo Images
-
-## Microsoft Edge Intune App Configuration Policy Settings
-
-![Microsoft Edge Intune Settings](https://ldgithubstorageaccount.blob.core.windows.net/githubimages/Microsoft%20Edge%20App%20Configuration%20Policy%20Information/Microsoft%20Edge%20App%20Configuration%20Full%20Size.png)
-
-* In addition. This policy "Auto Grants" Location permissions for Microsoft Edge
 
 # Referenced Links
 
