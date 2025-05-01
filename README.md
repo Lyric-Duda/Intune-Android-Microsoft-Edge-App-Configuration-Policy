@@ -8,7 +8,7 @@
 
 * I took the template that you can download from intune when you make a "App Configuration Policy" for "Microsoft Edge" and structured it to be "3 Space Tab"
 
-## Microsoft Edge
+## Microsoft Edge JSON Structure
 
 This JSON file is structured to
 
