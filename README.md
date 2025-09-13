@@ -19,9 +19,6 @@ This JSON file is structured to
 * Set the default search engine to google
 * Disable unneeded Microsoft Edge features
 
-
-
-
 # Demo Images
 
 ## Microsoft Edge Intune App Configuration Policy Settings
@@ -29,7 +26,6 @@ This JSON file is structured to
 ![Microsoft Edge Intune Settings](https://ldgithubstorageaccount.blob.core.windows.net/githubimages/Microsoft%20Edge%20App%20Configuration%20Policy%20Information/Microsoft%20Edge%20App%20Configuration%20Full%20Size.png)
 
 * In addition. This policy "Auto Grants" Location permissions for Microsoft Edge
-
 
 # Intune Configuration Information
 
@@ -55,9 +51,40 @@ To create the Microsoft Edge App Configuration Policy
             * Enter JSON data
                 + Enter the JSON Data from JSON Configurations or JSON Template
     * Assignment
-        1. Add desiered Users, Devices, or Groups
+        1. Add desiered Device Groups
     * Review + create
         * Review then click create
+
+## Managed Favorites only showing "MyApps"
+
+By default if you sign into Microsoft Edge on a smartphone it will create a bookmark folder that only containes "MyApps". This ovewrites the Managed Favorites Configuration in the App Configuration Policy. Selecting false on "EdgeMyApps" wont resolve the issue because this setting only works under "Managed Apps" and not "Managed Devices".
+
+To create a "Managed Apps" cofiguration to disable "MyApps"
+1. Navagate to Apps - Android - Configuration
+2. Create a "Managed Apps" policy
+    * Basic
+        1. Name
+            * Enter the Desiered Name
+        2. Target policy to
+            * Select Apps
+        3. Public apps
+            * Public apps
+                + Microsoft Edge
+            * Platform
+                + Android
+    * Settings
+        1. Settings Catalog
+            * Click Next
+        2. General Configuration Settings
+            * Name
+                + com.microsoft.intune.mam.managedbrowser.MyApps
+            * Value
+                + false
+    * Assignment
+        1. Add desiered User Groups
+    * Review + create
+        * Review then click create
+
 
 # Referenced Links
 
